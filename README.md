@@ -3,7 +3,7 @@
 PiBot ist ein Schulprojekt, bei dem man durch Telegram einen TelegramBot ansprechen kann.
 Dieser kann verschiedene Funktionen haben und hat für das Schulprojekt eine Steckdose mithilfe eines Relais über die GPIO geschaltet. 
 
-Funktionen
+-- Funktionen --
 
 Schalten verschiedener GPIO eines Raspberry Pi (WiringPi)
 
