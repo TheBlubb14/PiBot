@@ -5,6 +5,11 @@ Dieser kann verschiedene Funktionen haben und hat für das Schulprojekt eine Ste
 
 -- Funktionen --
 
-Schalten verschiedener GPIO eines Raspberry Pi (WiringPi)
+- Schalten verschiedener GPIO eines Raspberry Pi (WiringPi)
+- Rechtesystem (Gast, Benutzer, Admin) und Logging mithilfe einer MySql Datenbank
 
-Rechtesystem (Gast, Benutzer, Admin) und Logging mithilfe einer MySql Datenbank
+
+-- zum Erstellen --
+
+- in MySqlKlasse.cs in der Methode "MySqlVerbindungAufbauen" die MySql Serverdaten eintragen
+- in Program.cs in dem Task "ServerAufgaben" bei ApiBot = new ApiBot("XXXX") TelegramBot Api einfügen
